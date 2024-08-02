@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="stykes.css">
+    <style>
+    #borderimg {
+  border:10px solid ;
+  padding: 15px;
+  border-image: url(border-removebg-preview.png) ;
+}
+      
+body {
+  background-image: url('logo.jpg');
+  background-size: 50% 100%;
+ background-blend-mode: color-burn ;
+  background-position-x: left;
+}
+ 
+    </style>
+</head>
+<body>
+    <!-- <div class=".container">
+    <img1 src="clock.gif" alt="Computer Man" style="width:48px;height:48px;">
+    <img2 src="clock.gif" alt="Computer Man" style="width:48px;height:48px;">
+    <img3 src="clock.gif" alt="Computer Man" style="width:48px;height:48px;">
+    <img4 src="clock.gif" alt="Computer Man" style="width:48px;height:48px;">
+    <img5 src="clock.gif" alt="Computer Man" style="width:48px;height:48px;">
+
+    </div>
+  -->
+    <div class="stopwatch">
+        <!-- <img src ="border-removebg-preview.png"> -->
+        <!-- <p id="borderimg"></p> -->
+        <div id="display">00:00:00</div>
+        <button id="startStop">Start</button>
+        <button id="reset">Reset</button>
+        <button id="lap">Lap</button>
+        <div id="laps"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

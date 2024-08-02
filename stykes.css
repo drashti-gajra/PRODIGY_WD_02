@@ -1,0 +1,40 @@
+body {
+    /* background-image: url("clock.jpg"); */
+    
+  background-repeat:repeat-x;
+  background-position: right top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     background-color: #afebe1; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.stopwatch {
+    background: #ecbbbb;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: cell;
+    border: none;
+    border-radius: 5px;
+}
+
+#laps {
+    margin-top: 20px;
+    text-align: left;
+}
